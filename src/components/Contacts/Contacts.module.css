@@ -1,0 +1,36 @@
+.contacts {
+  width: 400px;
+  margin: 0 auto;
+}
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.contactDeleteBtn {
+  letter-spacing: 0.04em;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contactDeleteBtn:hover,
+.contactDeleteBtn:focus {
+  background-color: rgb(157, 157, 157);
+  color: white;
+}
